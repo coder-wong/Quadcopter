@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Sam Wong, Sam Wong, LIC=ATTQ1-C5XT0-BSWYX-H5YHT-QS64C-DQYJQ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.26.2.0
+Toolchain Path:  D:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.5.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\Flisht_HAL\MDK-ARM\Flisht_HAL.uvprojx
+Project File Date:  03/10/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
+Build target 'Flisht_HAL'
+compiling App_Flight.c...
+..\App\App_Flight.c(460): warning:  #1182-D: a declaration cannot have a label
+  			int16_t thr_temp;
+..\App\App_Flight.c(483): warning:  #186-D: pointless comparison of unsigned integer with zero
+      __HAL_TIM_SetCompare(&htim3, TIM_CHANNEL_1, LIMIT(motor3,0,1000)); // 左前
+..\App\App_Flight.c(484): warning:  #186-D: pointless comparison of unsigned integer with zero
+      __HAL_TIM_SetCompare(&htim2, TIM_CHANNEL_2, LIMIT(motor2,0,1000)); // 右前
+..\App\App_Flight.c(485): warning:  #186-D: pointless comparison of unsigned integer with zero
+      __HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_4, LIMIT(motor4,0,1000)); // 左后
+..\App\App_Flight.c(486): warning:  #186-D: pointless comparison of unsigned integer with zero
+      __HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_3, LIMIT(motor1,0,1000)); // 右后
+..\App\App_Flight.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=31208 RO-data=408 RW-data=308 ZI-data=18092  
+FromELF: creating hex file...
+"Flisht_HAL\Flisht_HAL.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
+                ARM.CMSIS.5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil.STM32F1xx_DFP.1.0.5
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Flisht_HAL
+  D:\MDK5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+  D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.2
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

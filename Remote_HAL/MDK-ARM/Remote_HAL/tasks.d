@@ -1,0 +1,16 @@
+remote_hal\tasks.o: ..\Midware\FreeRTOS\source\tasks.c
+remote_hal\tasks.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+remote_hal\tasks.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+remote_hal\tasks.o: ../Midware/FreeRTOS/include/FreeRTOS.h
+remote_hal\tasks.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+remote_hal\tasks.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+remote_hal\tasks.o: ../Midware/FreeRTOS/FreeRTOSConfig.h
+remote_hal\tasks.o: ../Midware/FreeRTOS/include/projdefs.h
+remote_hal\tasks.o: ../Midware/FreeRTOS/include/portable.h
+remote_hal\tasks.o: ../Midware/FreeRTOS/include/deprecated_definitions.h
+remote_hal\tasks.o: ../Midware/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h
+remote_hal\tasks.o: ../Midware/FreeRTOS/include/mpu_wrappers.h
+remote_hal\tasks.o: ../Midware/FreeRTOS/include/task.h
+remote_hal\tasks.o: ../Midware/FreeRTOS/include/list.h
+remote_hal\tasks.o: ../Midware/FreeRTOS/include/timers.h
+remote_hal\tasks.o: ../Midware/FreeRTOS/include/stack_macros.h
